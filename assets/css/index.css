@@ -5,6 +5,7 @@
 body{
   width: 100%;
   margin: 0;
+  overflow-x: hidden;
 }
 .container{
   width: 366px;
@@ -22,7 +23,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 64px 32px 24px 32px;
+    padding: 64px 42px 24px 0px;
     background-color: white;
     position: relative;
     /* background-color: bisque; */
@@ -93,14 +94,121 @@ body{
  display: flex;
  align-items: center;
  justify-content: space-between;
- gap: 150px;
+ gap: 212px;
+}
+#hero{
+width: 366px;
+height: 994px;
+background-color: rgba(232, 246, 255, 1);
+margin-top: -20px;
+border-radius: 16px;
+}
+.hero-content{
+font-family: 'poppins';
+font-size: 36px;
+font-weight: 700;
+line-height: 130%;
+color: rgba(52, 52, 52, 1);
+}
+h1{
+display: flex;
+text-align: center;
+padding-top: 20px;
+}
+.hero-text{
+display: flex;
+text-align: center;
+font-family: 'poppins';
+font-size: 14px;
+font-weight: 500;
+line-height: 100%;
+color: rgba(52, 52, 52, 1);
+}
+.button{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+margin-top: 30px;
+margin-bottom: 10px;
+}
+.button1{
+background-color: rgba(5, 84, 242, 1);
+padding: 16px;
+border-radius: 40px;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+border: none;
+font-family: 'poppins';
+font-size: 14px;
+font-weight: 600;
+line-height: 150%;
+text-decoration: none;
+}
+.button2{
+display: flex;
+border: 2px solid rgba(5, 84, 242, 1);
+padding: 16px;
+border-radius: 40px;
+text-align: center;
+color: rgba(5, 84, 242, 1);
+padding: 16px;
+align-items: center;
+justify-content: center;
+background-color: transparent;
+gap: 8px;
+font-family: 'poppins';
+font-size: 14px;
+font-weight: 600;
+line-height: 150%;
+text-decoration: none;
+
+}
+.button2 img{
+width: 16px;
+height: 16px;
+}
+.student{
+display: flex;
+gap: 20px;
+}
+.student img{
+width: 48px;
+height: 48px;
+}
+.student ul{
+display: flex;
+list-style: none;
+}
+.student li{
+margin-right: -15px;
+}
+.student-num{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 5px;
+
+}
+.student-inf{
+font-family: 'poppins';
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+color: rgba(52, 52, 52, 1);
+margin-bottom: 0;
+}
+.student-text{
+font-family: 'poppins';
+font-size: 10px;
+font-weight: 400;
+line-height: 150%;
+color: rgba(5, 84, 242, 1);
 }
 }
 .menu {
   display: none;
 }
-
-
 
 
 
