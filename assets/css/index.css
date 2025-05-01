@@ -331,8 +331,49 @@ body {
   color: rgba(49, 49, 49, 1);
   margin: 0;
   padding: 0;
-
 }
+
+#collaborators{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.collaborators-logo{
+  display: flex;
+  height: 27;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.collaborators-logo img{
+  width: 111px;
+}
+
+.blue{
+  color: #4594FA;
+}
+
+.collaborators-text{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: 'poppins';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+  color: #343434;
+  margin: 5px;
+}
+
+
+
+
+
+
 
 
 @media(min-width:1000px) {
@@ -632,8 +673,6 @@ body {
     left: 590px;
     box-shadow: 0px 10px 10px -2px #3131311A;
   }
-
-  .box1 {}
 
   .box-num {
     font-family: 'poppins';
