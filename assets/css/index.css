@@ -262,8 +262,8 @@ color: rgba(5, 84, 242, 1);
   left: 20px;
   z-index: 6;
   padding: 16px;
+  box-shadow: 5px 5px  10px rgba(49, 49, 49, 0.1);
 }
-
 .box2 .box1 .box3{
   display: flex;
   flex-direction: column;
